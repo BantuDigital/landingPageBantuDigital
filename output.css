@@ -953,6 +953,18 @@ video {
   background-color: rgb(255 255 255 / 0.8);
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#0a315f\]\/10 {
+  background-color: rgb(10 49 95 / 0.1);
+}
+
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -1255,6 +1267,10 @@ video {
   color: rgb(250 204 21 / var(--tw-text-opacity, 1));
 }
 
+.text-\[096269\] {
+  color: 096269;
+}
+
 .placeholder-white\/70::-moz-placeholder {
   color: rgb(255 255 255 / 0.7);
 }
@@ -1534,6 +1550,22 @@ video {
 
 .hover\:bg-white\/30:hover {
   background-color: rgb(255 255 255 / 0.3);
+}
+
+.hover\:bg-\[\#0a315f\]\/20:hover {
+  background-color: rgb(10 49 95 / 0.2);
+}
+
+.hover\:bg-\[\#0a315f\]\/80:hover {
+  background-color: rgb(10 49 95 / 0.8);
+}
+
+.hover\:bg-\[\#0a315f\]\/0:hover {
+  background-color: rgb(10 49 95 / 0);
+}
+
+.hover\:bg-\[\#0a315f\]\/40:hover {
+  background-color: rgb(10 49 95 / 0.4);
 }
 
 .hover\:from-blue-700:hover {
